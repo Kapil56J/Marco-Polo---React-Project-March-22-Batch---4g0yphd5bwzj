@@ -15,7 +15,7 @@ const App = () => {
   
   return (
     <div id="main">
-    <h1 id="marco-polo">{alternate ? "Marco" : "Polo"}</h1>
+    <h1 id="marco-polo">{alternate ? "Polo" : "Marco"}</h1>
     <button id="marco-polo-toggler" onClick={Handler}>{alternate ? "Marco" : "Polo"}</button>
     </div>
   )
